@@ -21,6 +21,8 @@ struct BoxSolverResults
     xdist::Float64
     fdist::Float64
     iters::Integer
+    nfev::Integer
+    njev::Integer
     trace::SolverTrace
 
 end
